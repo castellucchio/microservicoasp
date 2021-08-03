@@ -46,6 +46,7 @@ namespace microservicoasp.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutAluno(int id, Aluno aluno)
         {
+            //teste
             if (id != aluno.Id)
             {
                 return BadRequest();
